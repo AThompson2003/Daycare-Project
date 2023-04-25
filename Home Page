@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<!---This website template was created by: Amaya Thompson-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="Daycare Css/Daycare Design.css">
+        <title>Lil Tots Daycare Center</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto+Slab&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="media/favicon.ico">
+        <link rel="icon" type="media/png"sizes="32x32" href="media/favicon_io/favicon-32x32.png">
+        <link rel="apple-touch-icon"sizes="180x180" href="media/apple-touch-icon.png">
+        <link rel="icon" sizes="192x192" href="media/android-chrome-192.png">
+    </head>
+    <body>
+
+        <div id="container">
+
+            <!--Use the header area for the website name or logo-->
+            <header>
+                <a href="Home page.html"><img src="Pics/Logo.png" alt="Lil Tots Day Care Center Club logo" height=250 width=400> </a>
+            </header>
+
+            <!--Use the nav area to add hyperlinks to other pages within the website-->
+    <nav>
+        <ul>
+            <li><a href="Home page.html">Home</a></li> 
+            <li><a href="About us draft.html">About Us</a></li> 
+            <li><a href="contact draft.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+     <!--Hero Image-->
+     <div id="hero" class="tablet-desktop">
+        <a href="About us.html"> <img src="Pics/Childcare-Daycare-.jpg" alt="Kids playing at table" height=600 width=1519> </a>
+    </div>
+
+    <!--Use the main area to add the main content of the webpage-->
+    <main>
+
+        <video controls poster="Pics/E608BF75-35A5-41AB-8031-8CC3EA9E6B20.png">
+            <source src="Pics/IMG_1285.MOV" type="video/mp4">
+           <!--- <track src="videos/webvtt.vtt" kind="captions" srclang="en" label="Captions">
+            <track src="videos/webvtt.vtt" kind="descriptions" srclang="en" label="English Descriptions"> --->
+            <p>Your browser does not support the video element.</p>
+           
+        </video>
+
+        <div class="mobile">
+
+            <h1>Welcome to the Lil Tots Daycare Center Family!</h1>
+        </div>
+
+        <div class="tablet-desktop">
+
+            <p>Welcome to the Lil Tots Daycare Center! We are dedicated to providing a safe, fun, and nurturing environment for your child to learn and grow.</p>
+            
+            <h3>Our Mission:</h3>
+                <p>At Lil Tots Daycare Center, we strive to provide the highest quality care for your child. Our mission is to foster a love of learning, socialization, and exploration in a safe and welcoming environment.</p>
+
+            <h4>Our Programs:</h4>
+                <p>We offer a range of programs to meet the needs of children of all ages, from infants to school-aged children. Our programs include:<br>
+                <br>Infant Care: Our experienced staff provides a caring and nurturing environment for your little one. </br>
+                <br>Toddler Care: We encourage your child's independence and creativity through play and exploration.</br>
+                <br>Preschool: Our curriculum is designed to prepare your child for success in kindergarten and beyond.</br>
+                <br>After-School Care: We provide a safe and stimulating environment for your child to unwind and engage in fun activities after school.</p>
+
+                <h5>Enrollment:</h5>
+                <p>We are currently accepting new enrollees! Contact us today to schedule a tour and learn more about our programs.</P> <br>
+                    </br>
+               <br> <p> Thank you for considering Lil Tots Daycare Center for your child's care and education. We look forward to meeting you and your little one!</p> </br>
+
+                </div>
+
+                <div id="form">
+    
+                    <h2>Join Our Email List!</h2>
+                    <form class="form-grid">
+                        <!--Start Form-->
+                        
+                        <fieldset>
+                            <legend>Customer Information</legend>
+                            <label for="fName">Name:</label>
+                            <input type="text" name="fName" id="fName" required>
+                
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email"required>
+                
+                            <label for="phone">Phone:</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </fieldset>
+                        
+                        <legend>Referral Source</legend>
+                    <fieldset>
+                        <label for="questions">Questions?</label>
+                         <textarea id="questions" name="questions" rows="5" cols="35"></textarea>
+                    </fieldset>
+
+        <input type="submit" id="submit" value="Subscribe" class="btn">
+
+    </form>
+
+    <div class="grid">
+
+        <figure class="frame">
+            <a href="???"><img src="Pics/daycare teacher.webp" alt="Teacher teaching class" height=200 width=300></a>
+            <figcaption class="pic-text">Experienced Teachers</figcaption>
+        </figure>
+
+        <figure class="frame">
+            <a href="???"><img src="Pics/kids play.webp" alt="Kids learning" height=200 width=300></a>
+            <figcaption class="pic-text">Fun & Learning</figcaption>
+        </figure>
+
+        <figure class="frame">
+            <a href="???"><img src="Pics/daycare learning.webp" alt="Kids being safe" height=200 width=300></a>
+            <figcaption class="pic-text">Safety Policy</figcaption>
+        </figure>
+
+        <figure class="frame">
+            <a href="???"><img src="Pics/kids eating.png" alt="Kids eating lunch" height=200 width=300></a>
+            <figcaption class="pic-text">Healthy Meals</figcaption>
+        </figure>
+
+    </div>
+
+    </main>
+
+    <!--Use the footer area to add webpage footer content-->
+    <footer>
+        <p>&copy; Copyright 2023. All Rights Reserved.</p>
+        <p><a href="mailto:LilTotsDaycareCenter@LilTots.net">LilTotsDaycareCenter@Daycare.net</a></p>
+        <p>Visit us at:  245 State St, New Britain, CT 01001.</p>
+    </footer>
+
+</div>
+
+</body>
+</html>
