@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!--This webpage template was created by: Diondra Weise
+This webpage was created as apart of a group project
+CS110 - Group 3 -- Spring 2023 -->
+
+<html lang="en">
+<head>
+    <title>Lil Tots Daycare Center</title>
+    <link rel="icon" href="media/LilTotslogo.compressed.jpg"type="Logo jpeg"/>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Daycare Design.css">
+</head>
+
+<body>
+
+    <!--Use the header area for the website name and logo-->
+    <header>
+        <!--<h1> Lil Tots Daycare Center </h1>-->
+        <a href="index.html"><img src="media/Logo1.png" alt="Perm Daycare logo"></a>
+    </header>
+
+    <!-- Use the nav area for the website name or logo-->
+<nav>
+    <p>
+        <a href="Home Page.html">Home</a> &nbsp;  &nbsp; &nbsp;
+        <a href="AboutUs.html">About Us</a> &nbsp;  &nbsp; &nbsp;
+        <a href="Contactus.html">Contact Us</a> &nbsp;  &nbsp; &nbsp;
+        </p> 
+</nav>
+
+<!--Hero Image-->
+<div id="hero" class="tablet-desktop">
+    <img src="media/painting art supplies.jpg" alt="Painting art supplies hero image" height="600" width="1519">
+</div>
+
+<!-- Use the main area to add the main content of the webpage -->
+<main>
+    <div>
+        <h2>
+            Lil Tots Daycare Center Hartford is conveniently located just outside of the metropolitan district. We are located near many of the major insurance companies and other corporations. This makes it possible for families to visit throughout the day and share activities, a meal, or just a quick snuggle.
+            Accessing the center is easy. We are just a couple of blocks away from both major freeways. Our parents enter the center through a secure parking garage and keypad entry. Free parking is provided. Visitors with appointments are provided with a QR code to grant them access to the center. Unauthorized visitors without appointments must speak to security to gain access. 
+        </h2>
+    </div>
+
+    
+    <div id="form">
+
+        <h2>Want to learn more about our schools, including our tuition rates? Please fill out the form below, and click “Inquire Now”. We will get back to you within one business day. Currently, enrolled families should contact their center directly.</h2>
+
+        <form><!-- Start Form -->
+            <fieldset>
+                <legend>Applicant's Information</legend>
+                
+                <legend>Parent's Information</legend>
+                <label for="fName">First Name:</label>
+                <input type="text" id="fName" name="fName" required>
+                
+                <label for="1Name">Last Name:</label>
+                <input type="text" name="1Name" id="1Name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+                
+                <legend>Student's Information</legend>
+                <label for="fName">First Name:</label>
+                <input type="text" id="fName" name="fName" required>
+
+                <label for="1Name">Last Name:</label>
+                <input type="text" name="1Name" id="1Name" required>
+
+                <label for="Date of Birth">Date of Birth</label>
+                <input type="date" name="Date of Birth" id="Date of Birth" required>
+
+                <legend>Additional Information</legend>
+
+                <label for="accomodations">Special accomodation request?</label>
+                <textarea id="Accomodations?" name="Accomodations?" rows="3"
+                cols="35"></textarea>
+
+                <label for="allergies">Please list all known allergies</label>
+                <textarea id="Allergies" name="Allergies" rows="3"
+                cols="35"></textarea>
+
+
+            </fieldset>
+            
+
+
+            <fieldset>
+                <legend>Source of referral</legend>
+                <label for="reference">Please share how you learned about us!</label>
+                <select name="reference" id="reference">
+                    <option value="ad">Advertisement</option>
+                    <option value="friend">Friend</option>
+                    <option value="google">Google</option>
+                    <option value="social">Social Media</option>
+                    <option value="other">Other</option>
+                </select>
+
+            </fieldset>
+
+            <input type="submit" id="submit" value="Inquire Now" class="btn">
+
+        </form>
+
+    </div>
+
+</main>
+
+<!-- Use the footer area to add webpage footer content -->
+<footer>
+    <h2>We're excited to meet with you! Get in touch today!</h2>
+    <h4 class="tel-link"><a href="tel:8145559608">(814) 555-1234</a></h4><!--Phone number may change-->
+    <h4>Email us: <a href="mailto:liltotsdaycare@mail.edu">liltotsdaycare@mail.edu</a></h4>
+    <h4>Visit us at: 245 State St, New Britain, CT 01001</h4>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2972.8589608040616!2d-72.91553078787831!3d41.83133507112698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e7a63cfa9f3ead%3A0x6f096c56172ad449!2s352%20Albany%20Turnpike%2C%20Canton%2C%20CT%2006019!5e0!3m2!1sen!2sus!4v1682021987440!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <p> &copy; Copyright 2023. All Rights Reserved.</p>
+    
+</footer>
+
+</body>
+
+</html>
